@@ -7,11 +7,13 @@ Make it easy for users to find and validate their address in your .NET, C# or VB
 ## Address Search API
 
 Call the Address Search API to find and validate addresses using fuzzy matching to eliminate typos and spelling mistakes.
+
 https://www.addy.co.nz/address-finder-and-postcode-api
 
 ## Address Details API
 
 Call the Address Details API to retrieve address information, such as New Zealand Post’s Delivery Point Identifier (DPID), LINZ’s Street Address ID or longitude / latitude (x / y) coordinates, street names, city names, suburbs, postal codes, territories, regions and more.
+
 https://www.addy.co.nz/address-details-api
 
 ## Install NuGet Package
