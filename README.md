@@ -3,6 +3,7 @@
 https://www.addy.co.nz/
 
 Make it easy for users to find and validate their address in your .NET, C# or VB.NET application.  
+
 Call the Address Search API to find and validate addresses using fuzzy matching to eliminate typos and spelling mistakes.
 https://www.addy.co.nz/address-finder-and-postcode-api
 
@@ -21,6 +22,7 @@ Call the Address Lookup API:
 ```csharp
     using (var addressService = new AddressService())
     {
+        // Search for '80 Queen St'
         var searchResult = addressService.AddressSearchAsync("80 Queen St").Result;
         Console.WriteLine("Found {0} matches.", searchResult.matched);
 
@@ -32,6 +34,7 @@ Call the Address Lookup API:
         // Grab the first address in the list
         var addressId = searchResult.addresses[0].id;
 
+        // Perform a detailed lookup for the address
         var addressDetail = addressService.GetAddressDetailByIdAsync(addressId).Result;
 
         Console.WriteLine("Full: {0}", addressDetail.full);
