@@ -1,6 +1,9 @@
 ﻿
 namespace Addy.Address.Service
 {
+    /// <summary>
+    /// Address metadata and details. See: https://www.addy.co.nz/address-details-api
+    /// </summary>
     public class AddressDetail
     {
         /// <summary>
