@@ -4,6 +4,11 @@ https://www.addy.co.nz/
 
 Make it easy for users to find and validate their address in your .NET, C# or VB.NET application.  
 
+## .Net Standard
+
+A newer version targeting .NET Standard is available at:
+https://github.com/addynz/Address-Validation-Cleansing-NZ-DotNet-Standard
+
 ## Address Search API
 
 Call the Address Search API to find and validate addresses using fuzzy matching to eliminate typos and spelling mistakes.
